@@ -1,0 +1,37 @@
+body {
+    background-color: #000;
+    color: #00FF00;
+    font-family:Inter,system-ui,Avenir,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.green {
+    color: #00FF00;
+}
+
+.art {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none; 
+    font-family: monospace;
+    white-space: pre;
+}
+
+.message {
+    font-size: 1.6rem;
+    color: #FF0000;
+}
+
+@media (min-width:320px)  { .art {font-size: 0.5rem;} .message {font-size: 1rem;}}
+@media (min-width:801px)  { .art {font-size: 1.6rem;} .message {font-size: 1.6rem;}}
