@@ -5,7 +5,7 @@
 <br /><br />
 
 <p align="center">
-    <img src="https://naomi.sh/icons/favicon.png" alt="naomi.sh">
+    <img src="https://naomi.sh/icons/favicon.png" alt="naomi.sh" width="512" height="512">
 </p>
 
 <br />
