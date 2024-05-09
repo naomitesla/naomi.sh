@@ -18,6 +18,12 @@ interface Props {
 }
 
 
+declare module 'react' {
+  interface HTMLAttributes<T> extends AriaAttributes, DOMAttributes<T> {
+    fetchpriority?: 'high' | 'low' | 'auto';
+  }
+};
+
 export default function Panel(props: Props) {
     const [isAbout, setAbout] = useState(true);
     const glitch = useGlitch({
@@ -54,13 +60,13 @@ export default function Panel(props: Props) {
             'https://app.hackthebox.com/profile/645009',
             'https://tryhackme.com/p/naymi',
             'https://github.com/naomitesla',
-            'https://discordapp.com/users/315262571315986432',
+            'mailto:contact@naomi.sh',
         ],
         [
             `${pics}socials/htb_glow.webp`,
             `${pics}socials/thm_glow.webp`,
             `${pics}socials/github_glow.webp`,
-            `${pics}socials/discord_glow.webp`,
+            `${pics}socials/eml_glow.webp`,
         ],
     ]
 
@@ -101,7 +107,7 @@ export default function Panel(props: Props) {
                     </Link>
                     <Link to={socials[0][3]} target='_blank' rel='noopener noreferrer'>
                         <div className='neon-btn'>
-                            <img src={socials[1][3]} alt='discord' unselectable='on'/>
+                            <img src={socials[1][3]} alt='email' unselectable='on'/>
                         </div>
                     </Link>
                 </div>
