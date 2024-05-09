@@ -12,3 +12,6 @@ npm-debug.log*
 .npm
 .node_repl_history
 *.tgz
+
+# sec reasons :3
+vite.config.ts
