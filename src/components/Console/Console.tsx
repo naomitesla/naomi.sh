@@ -26,8 +26,8 @@ export default function Console({ text }: args) {
   }, [currentIndex, delay, text]);
 
   return (
-    <div>
+    <>
       {Parser(ps1)}{Parser(currentText)}
-    </div>
+    </>
   );
 }
