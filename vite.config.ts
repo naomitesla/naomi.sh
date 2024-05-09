@@ -10,7 +10,7 @@ export default defineConfig({
 			enforce: "post",
 			transformIndexHtml(html: string) {
 				const regex = /<script(.*?)/gi;
-				const replacement = '<script nonce="nonce-ieq95qw3j5axze4g7shj9o25hwioovqb"$1';
+				const replacement = '<script nonce="nonce-ieq95qw3j5axze4g7shj9o25hwioovqb"$1'; // try it c;
 				return html.replace(regex, replacement);
 			},
             }, {
