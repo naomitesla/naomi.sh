@@ -65,7 +65,7 @@ export default function Panel(props: Props) {
         [
             `${pics}socials/htb_glow.webp`,
             `${pics}socials/thm_glow.webp`,
-            `${pics}socials/github_glow.webp`,
+            `${pics}socials/gth_glow.webp`,
             `${pics}socials/eml_glow.webp`,
         ],
     ]
