@@ -1,13 +1,10 @@
-@import 'sass/variables';
-
 :root {
   overflow: hidden;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
 
-  color-scheme: normie;
   color: rgba(0, 255, 0, 0.87);
-  background-color: $base-color;
+  background-color: #060606;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -36,18 +33,4 @@ footer {
   z-index: -1;
   position: absolute;
   width: 100%;
-}
-
-@media (prefers-color-scheme: terminal) {
-  :root {
-    color: $secondary-color;
-    background-color: $base-color;
-  }
-}
-
-@media (prefers-color-scheme: normie) {
-  :root {
-    color: $secondary-color;
-    background-color: $base-color;
-  }
 }
