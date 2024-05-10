@@ -89,6 +89,11 @@
 .img-container .name {
   font-size: 2vw;
   text-shadow: 2px 2px 15px rgba(0, 255, 0, 1);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .button-container {
