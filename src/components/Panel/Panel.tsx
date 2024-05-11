@@ -58,7 +58,7 @@ export default function Panel(props: Props) {
     const socials = [
         [
             'https://app.hackthebox.com/profile/645009',
-            'https://tryhackme.com/p/naymi',
+            'https://tryhackme.com/p/naymi#badges-achieved',
             'https://github.com/naomitesla',
             'mailto:contact@naomi.sh',
         ],
